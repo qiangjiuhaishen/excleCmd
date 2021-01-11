@@ -1,0 +1,21 @@
+{
+  "name": "day4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "myCmd": "bin/myCmd.js",
+    "myCmd2": "bin/myCmd2.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^6.2.1",
+    "xlsx": "^0.16.9"
+  }
+}
